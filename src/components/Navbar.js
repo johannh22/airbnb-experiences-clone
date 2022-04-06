@@ -4,7 +4,7 @@ import logo from "../images/logo.svg";
 export default function Navbar() {
   return (
     <nav>
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className="nav-logo" />
     </nav>
   )
 }
